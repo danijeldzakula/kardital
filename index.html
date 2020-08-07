@@ -155,7 +155,7 @@
                                                                 <button type="submit" class="btn btn-danger btn-lg">DOBIJITE POPUST</button>
                                                             </div>
                                                         </div>
-                                                        <span class="primrub"> *prilikom naručivanja terapije</span>
+                                                        <span class="primrub" style="display: none;"> *prilikom naručivanja terapije</span>
                                                         <p class="today-ordered"><span class="todayBay">4775</span> ljudi je danas naručilo ovaj proizvod</p>
                                                     </div>
                                                     <input type="hidden" name="s1" class="price_field_s1" value="990">
@@ -299,7 +299,14 @@
                         <div class="price-old--top">
                             <p class="price-text--top">Samo jedan dan</p>
                             <p class="price-x--top">
-                                <span class="pl_product_old_price">08.03.2020</span> <span class="currency-small--top"></span>
+                                <span class="pl_product_old_price">
+                                    <script>
+                                        var today = new Date();
+                                        var date = +(today.getMonth())+'.'+today.getDate()+'.'+today.getFullYear(); //'.'
+                                        document.write(date);                                    
+                                    </script>
+                                </span> 
+                                <span class="currency-small--top"></span>
                             </p>
                         </div>
                         <div class="price-new--top">
@@ -347,7 +354,7 @@
                                             <button type="submit" class="btn btn-danger btn-lg">DOBIJITE POPUST</button>
                                         </div>
                                     </div>
-                                    <span class="primrub"> *prilikom naručivanja terapije</span>
+                                    <span class="primrub" style="display: none;"> *prilikom naručivanja terapije</span>
                                     <style>.pl_field_address_info{opacity:0}</style>
                                     <input type="hidden" name="s1" class="price_field_s1" value="990">
                                     <input type="hidden" name="s2" class="price_field_s2" value="0">
@@ -529,7 +536,7 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <span class="primrub"> *prilikom naručivanja terapije</span>
+                                            <span class="primrub" style="display: none;"> *prilikom naručivanja terapije</span>
                                             <style>.pl_field_address_info{opacity:0}</style>
                                             <p class="today-ordered"><span class="todayBay">4775 </span> ljudi je danas naručilo ovaj proizvod </p>
                                         </div>
@@ -820,7 +827,7 @@
                                                     </button>
                                                 </div>
                                             </div>
-                                            <span class="primrub">  *prilikom naručivanja terapije</span>
+                                            <span class="primrub" style="display: none;">  *prilikom naručivanja terapije</span>
                                             <style>.pl_field_address_info{opacity:0}</style>
                                             <p class="today-ordered"><span class="todayBay">4775 </span> ljudi je danas naručilo ovaj proizvod</p>
                                         </div>
@@ -1230,7 +1237,7 @@
                                             <button type="submit" class="btn btn-danger btn-lg">DOBIJITE POPUST</button>
                                         </div>
                                     </div>
-                                    <span class="primrub"> *prilikom naručivanja terapije</span>
+                                    <span class="primrub" style="display: none;"> *prilikom naručivanja terapije</span>
                                     <input type="hidden" name="s1" class="price_field_s1" value="990">
                                     <input type="hidden" name="s2" class="price_field_s2" value="0">
                                     <input type="hidden" name="s3" class="price_field_s3" value="990">
@@ -1333,7 +1340,7 @@
                                                         <button type="submit" class="btn btn-danger btn-lg">DOBIJITE POPUST</button>
                                                     </div>
                                                 </div>
-                                                <span class="primrub"> *prilikom naručivanja terapije</span>
+                                                <span class="primrub" style="display: none;"> *prilikom naručivanja terapije</span>
                                                 <p class="today-ordered">Товар сегодня заказали <span class="todayBay">4775</span> человек</p>
                                             </div>
                                             <input type="hidden" name="s1" class="price_field_s1" value="990">
