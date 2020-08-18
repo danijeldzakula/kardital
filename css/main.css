@@ -2200,7 +2200,7 @@ select,
         margin-top: 30px
     }
     .section17 {
-        background: url(../img/map.jpg) no-repeat center top #e6e6e6
+        /*background: url(../img/map.jpg) no-repeat center top #e6e6e6*/
     }
 }
 
@@ -2993,7 +2993,7 @@ select,
         margin-top: -60px
     }
     .section17 {
-        background: url(../img/map-480.jpg) no-repeat center top #e6e6e6;
+        /*background: url(../img/map-480.jpg) no-repeat center top #e6e6e6;*/
         height: 320px
     }
     .last-counter {
@@ -3580,7 +3580,7 @@ select,
         padding: 14px 0
     }
     .section17 {
-        background: url(../img/map-mob.jpg) no-repeat center top #e6e6e6;
+        /*background: url(../img/map-mob.jpg) no-repeat center top #e6e6e6;*/
         height: 260px
     }
     .whth p.inform {
@@ -6509,7 +6509,7 @@ footer {
         margin-top: 30px
     }
     .section17 {
-        background: url(../img/map.jpg) no-repeat center top #e6e6e6
+        /*background: url(../img/map.jpg) no-repeat center top #e6e6e6*/
     }
 }
 
@@ -7302,7 +7302,7 @@ footer {
         margin-top: -60px
     }
     .section17 {
-        background: url(../img/map-480.jpg) no-repeat center top #e6e6e6;
+        /*background: url(../img/map-480.jpg) no-repeat center top #e6e6e6;*/
         height: 320px
     }
     .last-counter {
@@ -7889,7 +7889,7 @@ footer {
         padding: 14px 0
     }
     .section17 {
-        background: url(../img/map-mob.jpg) no-repeat center top #e6e6e6;
+        /*background: url(../img/map-mob.jpg) no-repeat center top #e6e6e6;*/
         height: 260px
     }
     .whth p.inform {
@@ -8576,4 +8576,49 @@ footer {
 
 .price-new--top .price-x--top {
     font-size: 22px
+}
+.whth {
+    text-align: center;
+}
+
+.section17 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.section17 .title {
+    margin-bottom: 15px;
+}
+
+.section17::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clear: both;
+    display: block;
+    content: '';
+    background-color: #efefef;
+    background-image: url(../img/trucks.jpg);
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;   
+    filter: grayscale(100%);
+    z-index: -1
+}
+
+
+.section17 .delivery {
+    display: block;
+    width: 100%;
+    max-width: 440px;
+    margin: auto;
 }
