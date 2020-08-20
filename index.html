@@ -75,7 +75,12 @@
                                             <p class="price-text--top">Samo jedan dan</p>
                                             <p class="price-x--top">
                                                 <span class="pl_product_old_price0">
-                                                28.07.2020 </span>
+                                                    <script>
+                                                        var today = new Date();
+                                                        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+                                                        document.write(date);                                                               
+                                                    </script>
+                                                </span>
                                                 <span class="currency-small--top"></span>
                                             </p>
                                         </div>
@@ -279,8 +284,8 @@
                                 <span class="pl_product_old_price">
                                     <script>
                                         var today = new Date();
-                                        var date = +(today.getMonth())+'.'+today.getDate()+'.'+today.getFullYear(); //'.'
-                                        document.write(date);                                    
+                                        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+                                        document.write(date);                               
                                     </script>
                                 </span> 
                                 <span class="currency-small--top"></span>
@@ -462,7 +467,13 @@
                             <h4 class="h4-sform">Akcija!</h4>
                             <div class="price-old--top">
                                 <p class="price-text--top">Samo jedan dan</p>
-                                <p class="price-x--top"><span class="pl_product_old_price">28.07.2020</span> <span class="currency-small--top"></span></p>
+                                <p class="price-x--top">
+                                    <span class="pl_product_old_price">
+                                    
+
+                                    </span>
+                                    <span class="currency-small--top"></span>
+                                </p>
                             </div>
                             <div class="price-new--top">
                                 <p class="price-text--top--big">Cena sa popustom</p>
@@ -754,7 +765,13 @@
                             <div class="price-old--top">
                                 <p class="price-text--top">Samo jedan dan</p>
                                 <p class="price-x--top">
-                                    <span class="pl_product_old_price">28.07.2020</span> <span class="currency-small--top"></span>
+                                    <span class="pl_product_old_price">
+                                    <script>
+                                        var today = new Date();
+                                        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+                                        document.write(date);                               
+                                    </script>                                        
+                                    </span> <span class="currency-small--top"></span>
                                 </p>
                             </div>
                             <div class="price-new--top">
@@ -1171,7 +1188,13 @@
                         <div class="usp"><b>Požurite da postavite narudžbinu i dobijete popust</b></div>
                         <div class="price-old--top">
                             <p class="price-text--top">Samo jedan dan</p>
-                            <p class="price-x--top"><span class="pl_product_old_price">28.07.2020</span> <span class="currency-small--top"></span></p>
+                            <p class="price-x--top"><span class="pl_product_old_price">
+                                    <script>
+                                        var today = new Date();
+                                        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+                                        document.write(date);                               
+                                    </script>                                
+                            </span> <span class="currency-small--top"></span></p>
                         </div>
                         <div class="price-new--top">
                             <p class="price-text--top--big">Cena sa popustom</p>
