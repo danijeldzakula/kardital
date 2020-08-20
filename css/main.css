@@ -8619,6 +8619,47 @@ footer {
 .section17 .delivery {
     display: block;
     width: 100%;
-    max-width: 440px;
+    max-width: 190px;
     margin: auto;
+}
+
+@media only screen and (min-width: 992px) {
+    .section17 .delivery {
+        max-width: 280px
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .section17 .delivery {
+        max-width: 440px
+    }
+}
+
+.header-logo {  
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.heart {  
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.heart i {
+    color: crimson;
+    font-size: 36px;
+}
+
+.logo-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.plashka2 {
+    display: none;
 }
