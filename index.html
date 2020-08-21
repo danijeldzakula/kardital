@@ -268,15 +268,6 @@
                 </div>
                 <div class="section1-right">
                     <div class="section1-right-wrap">
-                        <div class="form1-mobile" style="display:none">
-                            <div class="row">
-                                <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
-                                    <p class="stay text-center">До конца акции осталось:</p>
-                                    <div class="message2"></div>
-                                    <div class="clock2 flip-clock-wrapper"></div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="usp"><b>Požurite da postavite narudžbinu i dobijete popust</b></div>
                         <div class="price-old--top">
                             <p class="price-text--top">Samo jedan dan</p>
@@ -469,7 +460,11 @@
                                 <p class="price-text--top">Samo jedan dan</p>
                                 <p class="price-x--top">
                                     <span class="pl_product_old_price">
-                                    
+                                                                        <script>
+                                        var today = new Date();
+                                        var date = today.getDate()+'.'+(today.getMonth()+1)+'.'+today.getFullYear();
+                                        document.write(date);                               
+                                    </script>
 
                                     </span>
                                     <span class="currency-small--top"></span>
@@ -505,7 +500,7 @@
                                             <div class="form-group row">
                                                 <label for="inputPhone2" class="col-sm-4 col-form-label">Vaš broj telefona</label>
                                                 <div class="col-sm-8">
-                                                    <input type="text" class="form-control phone-form" id="inputPhone2" placeholder="Vaš broj" name="phone" oldvalue="">
+                                                    <input type="text" class="form-control phone-form" id="inputPhone2" placeholder="Vaš broj telefona" name="phone" oldvalue="">
                                                 </div>
                                             </div>
                                         </div>
@@ -713,35 +708,49 @@
             <div class="wrapper">
                 <p class="title">Sastav proizvoda</p>
                 <div class="row slider1Wrap">
+
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-right">
                         <div class="row">
-                            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center"><img src="./img/component-1.png" alt=""></div>
+                            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
+                                <img src="./img/glog.jpg" alt="" class="image-carousel">
+                            </div>
                         </div>
-                        <div class="components listevennica"><b>Ginko biloba </b>
-                            <br>normalizuje krvni pritisak, kao rezultat čega se smanjuje oticanje tel, povećava se efikasnost i poboljšava san
+                        <div class="components listevennica"><b>Glog </b>
+                            <br>Sprečava porast modernoga doba - infarkt i pomaže pri visokom krvnom pritisku.
                         </div>
                         <div class="row">
-                            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center"><img src="./img/component-3.png" alt=""></div>
+                            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
+                                <img src="./img/imela.jpg" alt="" class="image-carousel">
+                            </div>
                         </div>
-                        <div class="components shiitake"><b>Borovnica </b>
-                            <br>postepeno snižava krvni pritisak, smanjuje verovatnoću nastanka krvnih ugrušaka i sprečava razvoj bolesti koronarnih arterija
+                        <div class="components shiitake"><b>Imela </b>
+                            <br>Pomaže kod visokog i niskog krvnog pritiska koji su posledica oboljenja srca i bubrega
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs"><img src="./img/scheme1.png" alt="" class="img-responsive"></div>
+
+                    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                        <img src="./img/hearts.png" alt="" class="img-responsive hearts">
+                    </div>
+
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-left">
                         <div class="row">
-                            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center"><img src="./img/component-2.png" alt=""></div>
+                            <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center">
+                                <img src="./img/rusomaca.jpg" alt="" class="image-carousel">
+                            </div>
                         </div>
-                        <div class="components astragal"><b>Ruža </b>
-                            <br>Sprečava formiranje plakova i poboljšava prokrvljenost organa i tkiva
+                        <div class="components astragal"><b>Rusomača </b>
+                            <br>Sadrži flavonoide, polipeptide, holin i acetilholin, histamin, vitamine A, B i C i obilje drugih delotvornih sastojaka.
                         </div>
+                        <!--
                         <div class="row">
                             <div class="hidden-lg hidden-md col-sm-12 col-xs-12 text-center"><img src="./img/component-4.png" alt=""></div>
                         </div>
                         <div class="components labaznik"><b>Pčelinji Polen </b>
                             <br>polen, bogat antioksidansima, povećava tonus tela i sadržaj hemoglobina u krvi 
                         </div>
+                        -->
                     </div>
+
                 </div>
             </div>
         </div>
@@ -1176,15 +1185,7 @@
                 </div>
                 <div class="section1-right">
                     <div class="section1-right-wrap">
-                        <div class="form1-mobile" style="display:none">
-                            <div class="row">
-                                <div class="hidden-lg hidden-md col-sm-12 col-xs-12">
-                                    <p class="stay text-center">До конца акции осталось:</p>
-                                    <div class="message5"></div>
-                                    <div class="clock5 flip-clock-wrapper"></div>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="usp"><b>Požurite da postavite narudžbinu i dobijete popust</b></div>
                         <div class="price-old--top">
                             <p class="price-text--top">Samo jedan dan</p>
