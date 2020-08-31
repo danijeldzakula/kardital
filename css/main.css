@@ -5255,7 +5255,7 @@ header .stay {
     width: 230px;
     display: inline-block;
     vertical-align: top;
-    background: url(../img/hiper.png) no-repeat 0 0;
+    background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat 0 0;
     filter: drop-shadow(0px 3px 5px rgba(0,0,0,.3));
     background-size: 208px;
     position: relative;
@@ -6316,7 +6316,7 @@ footer {
     }
     .section8-wrapper .section1-center {
         margin-top: -61px;
-        background: url(../img/hiper.png) no-repeat top center;
+        background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat top center;
         filter: drop-shadow(0px 3px 5px rgba(0,0,0,.3));
         height: 410px;
         width: 370px;
@@ -6609,7 +6609,7 @@ footer {
         max-width: 100%
     }
     .section1-center {
-        width: 200px;
+        width: 230px;
         margin-top: 57px;
         background-size: 180px;
         height: 430px;
@@ -6814,9 +6814,9 @@ footer {
     .section8-wrapper .section1-center {
         z-index: 10;
         margin-top: -40px;
-        background: url(../img/hiper.png) no-repeat center;
+        background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat center;
         filter: drop-shadow(0px 3px 5px rgba(0,0,0,.3));
-        width: 180px;
+        width: 230px;
         background-size: contain
     }
     .section8 .form-gray-bg {
@@ -7386,7 +7386,7 @@ footer {
         width: 25px
     }
     .section13 img {
-        max-width: 180px
+        max-width: 180px;
     }
 }
 
@@ -7935,7 +7935,7 @@ footer {
 }
 
 .section1-center {
-    background-size: 198px;
+    background-size: 238px;
     margin-left: -5px;
     margin-top: 90px
 }
@@ -7991,7 +7991,7 @@ footer {
         margin-top: 12px
     }
     .section1-center {
-        background-size: 190px;
+        background-size: 240px;
         margin-left: 25px;
         margin-top: 60px
     }
@@ -8016,7 +8016,7 @@ footer {
 
 @media screen and (max-width:991px) {
     .section1-center {
-        background: url(../img/hiper.png) no-repeat 0 -10px;
+        background: url('../img/HiperDrops-web-packaging_(2).png') no-repeat 0 -10px;
         filter: drop-shadow(0px 3px 5px rgba(0,0,0,.3));
         background-size: 120px
     }
@@ -8281,11 +8281,11 @@ footer {
 @media screen and (min-width:1280px) {
     .section8-wrapper .section1-center {
         height: 420px;
-        background-size: 183px;
+        background-size: 300px;
         margin-top: 10px
     }
     .section1-center {
-        margin-left: 30px
+        margin-left: 20px
     }
 }
 
@@ -8331,7 +8331,7 @@ footer {
         margin: 165px -10px 18px
     }
     .section1-center {
-        background-size: 132px
+        background-size: 202px
     }
     .section8 .price-old--top {
         width: 210px;
@@ -8387,9 +8387,11 @@ footer {
     .section1 .section1-center {
         margin-top: 520px;
         margin-bottom: 80px;
-        background: url(../img/hiper.png) no-repeat 30px -10px;
+        background: url('../img/HiperDrops-web-packaging_(2).png');
+        background-repeat: no-repeat;
+        background-size: contain;
         filter: drop-shadow(0px 3px 5px rgba(0,0,0,.3));
-        background-size: 155px
+        background-size: 225px
     }
     #product-block {
         margin: 15px 0 0 -12px !important
@@ -8681,4 +8683,12 @@ footer {
     border-radius: 50%;
     margin: auto;
     display: block;
+}
+
+.circle-img {
+    border-radius: 50%;
+    display: block;
+    width: 100%;
+    max-width: 230px;
+    margin: auto;
 }
